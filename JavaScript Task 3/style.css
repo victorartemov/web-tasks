@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 14pt;
+}
+.topPart {
+    margin-top: 150px;
+    margin-left: 10%;
+    width: 80%;
+}
+.ulPart {
+    margin-top: 50px;
+    margin-left: 10%;
+    width: 60%;    
+}
+#sequenceInput {
+    font-size: 25pt;
+    width: 60%;
+}
+#calculateButton {
+    font-size: 25pt;
+    width: 35%;
+}

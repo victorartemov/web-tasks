@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.topPart {
+    margin-top: 150px;
+    margin-left: 20%;
+    width: 60%;
+}
+#sequenceInput {
+    font-size: 25pt;
+    width: 60%;
+}
+#calculateButton {
+    font-size: 25pt;
+    width: 35%;
+}

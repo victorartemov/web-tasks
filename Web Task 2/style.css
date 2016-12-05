@@ -1,0 +1,153 @@
+body {
+    font: 10pt Arial, Helvetica, sans-serif;
+    background: #CADAE6;
+}
+h2 {
+    font-size: 1.1em;
+    color: #800040;
+    margin-top: 0;
+}
+#container {
+    width: 1000px;
+    margin: 0 auto;
+}
+.sidebar {
+    width: 200px;
+    padding: 0 10px;
+    float: left;
+}
+#content {
+    margin-left: 200px;
+    padding: 20px;
+}
+#footer {
+    padding: 5px;
+    clear: left;
+}
+.top-menu {
+    list-style: none;
+    float: right;
+    font-size: 1em;
+    font-weight: 600;
+    text-align: right;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+.top-menu li {
+    display: inline-block;
+    margin-left: 20px;
+}
+.top-menu li a {
+    text-decoration: none;
+    color: black;
+}
+.top-menu li.active a {
+    color: #DEA0DE;
+}
+.clear:after,
+.clear:before {
+    display: table;
+    content: '';
+    clear: right;
+}
+.main-table {
+    text-align: center;
+    border: 1px solid #0360A3;
+    border-style: solid;
+}
+.main-table thead {
+    background: #5EA1D1;
+}
+.pink-word {
+    color: #DEA0DE;
+    font-style: normal;
+}
+.bold {
+    font-weight: bold;
+}
+.list {
+    list-style-type: disc;
+}
+.non-circle-li {
+    list-style-type: none;
+}
+.red {
+    color: #FF0000;
+    font-style: italic;
+}
+.green {
+    color: #008000;
+    font-style: italic;
+}
+.blue {
+    color: #0000FF;
+    font-style: italic;
+    text-decoration: underline;
+}
+.yellow {
+    color: #FFD700;
+}
+.purple {
+    color: #800080;
+    text-decoration: underline;
+}
+.grey {
+    color: #828080;
+    font-style: italic;
+}
+.bottom-menu {
+    list-style: none;
+    float: left;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+.bottom-menu li {
+    display: inline-block;
+}
+.bottom-menu li a {
+    text-decoration: none;
+    color: black;
+}
+.bottom-menu li.active a {
+    color: #DEA0DE;
+}
+.border-left {
+    border-left: 1px solid black;
+    padding: 3px;
+}
+.bgcolor {
+    background: #DEA0DE;
+}
+.picture img {
+    padding: 0px;
+    margin: 0px;
+}
+.sidebar ul {
+    padding: 0;
+    margin-right: 13px;
+}
+.sidebar li {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #94C0E0;
+    padding: 6px;
+    list-style: none;
+    width: 100%;
+    cursor: pointer;
+}
+.sidebar a {
+    text-decoration: none;
+    color: black;
+}
+.sidebar li:hover {
+    background: #94C0E0;
+    color: white;
+}
+.right-part {
+    text-align: right;
+    padding-top: 12px;
+}
+
+i {
+    cursor: pointer;
+}
